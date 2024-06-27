@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
-import { SpeedInsights } from "@vercel/speed-insights/next";
+// import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const App = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement>(null);
