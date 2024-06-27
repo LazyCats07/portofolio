@@ -178,5 +178,26 @@
         "blue": "#4271AE",
         "red": "#C82829"
       }
-    }
-}
+    },
+    "onedark":{
+        "light": {
+          "background": "#FFFFFF",
+          "foreground": "#ABB2BF",
+          "yellow": "#E5C07B",
+          "green": "#98C379",
+          "gray": "#ABB2BF",
+          "blue": "#61AFEF",
+          "red": "#E06C75"
+        },
+        "dark": {
+          "background": "#282C34",
+          "foreground": "#ABB2BF",
+          "yellow": "#E5C07B",
+          "green": "#98C379",
+          "gray": "#545862",
+          "blue": "#61AFEF",
+          "red": "#E06C75"
+        }
+      }
+    }  
+

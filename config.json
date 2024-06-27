@@ -32,24 +32,24 @@
     "English-Arabic-Translation",
     "ReChain"
   ],
-  "Tomorrow":{
-      "light": {
-        "background": "#FFFFFF",
-        "foreground": "#4D4D4C",
-        "yellow": "#EAB700",
-        "green": "#718C00",
-        "gray": "#8E908C",
-        "blue": "#4271AE",
-        "red": "#C82829"
-      },
-      "dark": {
-        "background": "#1D1F21",
-        "foreground": "#4D4D4C",
-        "yellow": "#EAB700",
-        "green": "#718C00",
-        "gray": "#8E908C",
-        "blue": "#4271AE",
-        "red": "#C82829"
-      }
+  "onedark":{
+    "light": {
+      "background": "#FFFFFF",
+      "foreground": "#ABB2BF",
+      "yellow": "#E5C07B",
+      "green": "#98C379",
+      "gray": "#ABB2BF",
+      "blue": "#61AFEF",
+      "red": "#E06C75"
+    },
+    "dark": {
+      "background": "#282C34",
+      "foreground": "#ABB2BF",
+      "yellow": "#E5C07B",
+      "green": "#98C379",
+      "gray": "#545862",
+      "blue": "#61AFEF",
+      "red": "#E06C75"
     }
+  }
 }
