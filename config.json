@@ -6,16 +6,15 @@
   "social": {
     "github": "LazyCats07",
     "linkedin": "mrafiediananta",
-    "Instagram": "@mrafi.ed"
+    "Instagram": "@mrafi.ed",
+    "Medium": "@edianantarafi_10449"
   },
   "email": "edianantarafi@gmail.com",
   "Instagram": "https://www.instagram.com/mrafi.ed/",
   "Medium": "https://medium.com/@edianantarafi_10449",
   "repo": "https://github.com/LazyCats07",
+  "linkedin": "https://www.linkedin.com/in/mrafiediananta/",
   "resume_url": "https://drive.google.com/file/d/1-r2BAUsU0RvZhC_4Wvn4jYDa6AfcYAnr/view?usp=sharing",
-  // "donate_urls": {
-  //   "buymeacoffee": "https://www.buymeacoffee.com/ahmedsaed"
-  // },
   "top_repos": [
     "Clndr",
     "Path-Finding-Algorithm-Visualizer",
@@ -31,24 +30,24 @@
     "English-Arabic-Translation",
     "ReChain"
   ],
-  "colors": {
-    "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
-    },
-    "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+  "Tomorrow":{
+      "light": {
+        "background": "#FFFFFF",
+        "foreground": "#4D4D4C",
+        "yellow": "#EAB700",
+        "green": "#718C00",
+        "gray": "#8E908C",
+        "blue": "#4271AE",
+        "red": "#C82829"
+      },
+      "dark": {
+        "background": "#1D1F21",
+        "foreground": "#4D4D4C",
+        "yellow": "#EAB700",
+        "green": "#718C00",
+        "gray": "#8E908C",
+        "blue": "#4271AE",
+        "red": "#C82829"
+      }
     }
-  }
 }

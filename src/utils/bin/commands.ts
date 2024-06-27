@@ -19,15 +19,16 @@ export const help = async (args: string[]): Promise<string> => {
 |   Contact    |
 ----------------
 email     - open mailto:${config.email}
-github    - open github profile
-linkedin  - open linkedin profile
+github    - open github profile:${config.repo}
+linkedin  - open linkedin profile:${config.linkedin}
+instagram - open instagram profile:${config.Instagram}
+Medium    - open medium profile:${config.Medium}
 
 ----------------
 |   About Me   |
 ----------------
 about     - more about me
 resume    - open resume
-donate    - support my work
 sumfetch  - display summary
 banner    - display a cool banner
 projects  - display github projects
@@ -84,12 +85,12 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest.
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.buymeacoffee}" target="_blank">buymeacoffee</a></u>
-`;
-};
+// export const donate = async (args: string[]): Promise<string> => {
+//   return `thank you for your interest.
+// here are the ways you can support my work:
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.buymeacoffee}" target="_blank">buymeacoffee</a></u>
+// `;
+// };
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -109,14 +110,20 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 
+export const instagram = async (args: string[]): Promise<string> => {
+  window.open(`https://www.instagram.com/${config.social.Instagram}/`);
+
+  return 'Opening instagram...';
+};
+
 // Typical linux commands
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
 
-export const whoami = async (args: string[]): Promise<string> => {
-  return `${config.ps1_username}`;
-};
+// export const whoami = async (args: string[]): Promise<string> => {
+//   return `${config.ps1_username}`;
+// };
 
 export const ls = async (args: string[]): Promise<string> => {
   return `a
@@ -160,14 +167,16 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const banner = (args?: string[]): string => {
   return `
 
-  ░█████╗░██╗░░██╗███╗░░░███╗███████╗██████╗░  ░██████╗░█████╗░███████╗██████╗░
-  ██╔══██╗██║░░██║████╗░████║██╔════╝██╔══██╗  ██╔════╝██╔══██╗██╔════╝██╔══██╗
-  ███████║███████║██╔████╔██║█████╗░░██║░░██║  ╚█████╗░███████║█████╗░░██║░░██║
-  ██╔══██║██╔══██║██║╚██╔╝██║██╔══╝░░██║░░██║  ░╚═══██╗██╔══██║██╔══╝░░██║░░██║
-  ██║░░██║██║░░██║██║░╚═╝░██║███████╗██████╔╝  ██████╔╝██║░░██║███████╗██████╔╝
-  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░  ╚═════╝░╚═╝░░╚═╝╚══════╝╚═════╝░
-
-
+    █████████            █████        █████                █████   ████                                      ██████   ██████              ██ █████   █████ ███ ███    █████                   ███████████  ██████████ ██████   █████ ██
+  ███░░░░░███          ░░███        ░░███                ░░███   ███░                                      ░░██████ ██████              ███░░███   ░░███ ░░░ ░███   ░░███                   ░░███░░░░░███░░███░░░░░█░░██████ ░░███ ███
+ ███     ░░░   ██████  ███████      ███████    ██████     ░███  ███  ████████    ██████  █████ ███ █████    ░███░█████░███   ██████    ░░░  ░███    ░███ ████░███    ░███ █████████████      ░███    ░███ ░███  █ ░  ░███░███ ░███░░░ 
+░███          ███░░███░░░███░      ░░░███░    ███░░███    ░███████  ░░███░░███  ███░░███░░███ ░███░░███     ░███░░███ ░███  ███░░███        ░███████████░░███░███    ░███░░███░░███░░███     ░██████████  ░██████    ░███░░███░███    
+░███    █████░███████   ░███         ░███    ░███ ░███    ░███░░███  ░███ ░███ ░███ ░███ ░███ ░███ ░███     ░███ ░░░  ░███ ░███████         ░███░░░░░███ ░███░███    ░███ ░███ ░███ ░███     ░███░░░░░███ ░███░░█    ░███ ░░██████    
+░░███  ░░███ ░███░░░    ░███ ███     ░███ ███░███ ░███    ░███ ░░███ ░███ ░███ ░███ ░███ ░░███████████      ░███      ░███ ░███░░░          ░███    ░███ ░███░░░     ░███ ░███ ░███ ░███     ░███    ░███ ░███ ░   █ ░███  ░░█████    
+ ░░█████████ ░░██████   ░░█████      ░░█████ ░░██████     █████ ░░███████ █████░░██████   ░░████░████       █████     █████░░██████         █████   █████████████    ██████████░███ █████    █████   ███████████████ █████  ░░█████   
+  ░░░░░░░░░   ░░░░░░     ░░░░░        ░░░░░   ░░░░░░     ░░░░░   ░░░░░░░ ░░░░░  ░░░░░░     ░░░░ ░░░░       ░░░░░     ░░░░░  ░░░░░░         ░░░░░   ░░░░░░░░░░░░░    ░░░░░░░░░░ ░░░ ░░░░░    ░░░░░   ░░░░░░░░░░░░░░░ ░░░░░    ░░░░░    
+                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
