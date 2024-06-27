@@ -158,5 +158,25 @@
       "blue": "#06B6EF",
       "red": "#EF6155"
     }
-  }
+  },
+  "Tomorrow":{
+      "light": {
+        "background": "#FFFFFF",
+        "foreground": "#4D4D4C",
+        "yellow": "#EAB700",
+        "green": "#718C00",
+        "gray": "#8E908C",
+        "blue": "#4271AE",
+        "red": "#C82829"
+      },
+      "dark": {
+        "background": "#1D1F21",
+        "foreground": "#4D4D4C",
+        "yellow": "#EAB700",
+        "green": "#718C00",
+        "gray": "#8E908C",
+        "blue": "#4271AE",
+        "red": "#C82829"
+      }
+    }
 }
