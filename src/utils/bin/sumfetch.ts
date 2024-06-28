@@ -5,18 +5,18 @@ const sumfetch = async (args: string[]): Promise<string> => {
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      🗂️ Sumfetch: summary display
 @@@@@&&&&&&&&&&&&//////%%%%%%%@@@@@@@@@      -----------
 @@@@@&&&&&&&&&&&#//////&&&&&&&@@@@@@@@@      💻 ABOUT
-@@@@@&&&&&&&&&&///////%%%%%%%%@@@@@@@@@      🤦 ${config.name}
+@@@@@&&&&&&&&&&///////%%%%%%%%@@@@@@@@@      🙇‍♂️ ${config.name}
 @@@@@&&&&&&&&&&&////#%@@@@@@@@@@@@@@@@@      📃 <u><a href="${config.resume_url}" target="_blank">Resume</a></u>
-@@@@@&&&&&&&&&//////%%%%%%%%%%@@@@@@@@@      <a href="https://iconscout.com/icons/github" class="text-underline font-size-sm" target="_blank">Github</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm" target="_blank">Pixel Icons</a> <u><a href="${config.repo}" target="_blank">Github Repo</a></u>
-@@@@@%%%%%%%%(///////%%%%%%%%%@@@@@@@@@      爵 <u><a href="${config.Medium}" target="_blank">Medium</a></u>
+@@@@@&&&&&&&&&//////%%%%%%%%%%@@@@@@@@@      😺 <u><a href="${config.repo}" target="_blank">Github Repo</a></u>
+@@@@@%%%%%%%%(///////%%%%%%%%%@@@@@@@@@      📁 <u><a href="${config.Medium}" target="_blank">Medium</a></u>
 @@@@@&&&&&&&&/////////&&&&&&&&@@@@@@@@@      -----------      
-@@@@@%%%%%%///////////########@@@@@@@@@       CONTACT
-@@@@@@@@@@@///////////&&&&&%@@@@@@@@@@@      爵 <u><a href="${config.email}" target="_blank">Email</a></u>
-@@@@@@@@@@//////////////@%&%@@@@@@@@@@@      爵 <u><a href="${config.linkedin}" target="_blank">Linkedin</a></u>
-@@@@@%%%%%//#/////////&#////@@@@@@@@@@@      爵 <u><a href="${config.whatsapp_url}" target="_blank">Whatsapp</a></u>
-@@@@@&&&&///@/////////##&&///@@@@@@@@@@      爵 <u><a href="${config.Instagram}" target="_blank">Instagram</a></u>
-@@@@@&&&///%///////////&&&(%%@@@@@@@@@@      
-@@@@@&&&&/##///////////&&&&%%@@@@@@@@@@
+@@@@@%%%%%%///////////########@@@@@@@@@      🪪 CONTACT
+@@@@@@@@@@@///////////&&&&&%@@@@@@@@@@@      ✉️ <u><a href="${config.email}" target="_blank">edianantarafi@gmail.com</a></u>
+@@@@@@@@@@//////////////@%&%@@@@@@@@@@@      📇 <u><a href="${config.linkedin}" target="_blank">www.linkedin.com/in/mrafiediananta/</a></u>
+@@@@@%%%%%//#/////////&#////@@@@@@@@@@@      📞 <u><a href="${config.whatsapp_url}" target="_blank">wa.me/08114444020</a></u>
+@@@@@&&&&///@/////////##&&///@@@@@@@@@@      📲 <u><a href="${config.Instagram}" target="_blank">www.instagram.com/mrafi.ed/</a></u>
+@@@@@&&&///%///////////&&&(%%@@@@@@@@@@      ----------
+@@@@@&&&&/##///////////&&&&%%@@@@@@@@@@      
 @@@@@&&&&((/////////////%%%%%%@@@@@@@@@
 @@@@@&&&&&&///////@//////%%%%%@@@@@@@@@
 @@@@@&&&&&&//////&&&//////&&&&@@@@@@@@@
