@@ -14,7 +14,7 @@
   "Medium": "https://medium.com/@edianantarafi_10449",
   "repo": "https://github.com/LazyCats07",
   "linkedin": "https://www.linkedin.com/in/mrafiediananta/",
-  "resume_url": "https://drive.google.com/file/d/1-r2BAUsU0RvZhC_4Wvn4jYDa6AfcYAnr/view?usp=sharing",
+  "resume_url": "https://drive.google.com/file/d/12xjB4snzHZabhfDsCJJhDSXzQDRY1x7c/view?usp=sharing",
   "whatsapp_url": "https://wa.me/08114444020",
   "ps1_hostname": "portfolio",
   "ps1_username": "guest",
@@ -33,24 +33,24 @@
     "English-Arabic-Translation",
     "ReChain"
   ],
-  "onedark":{
+  "codeschool":{
     "light": {
-      "background": "#2e3440",
-      "foreground": "#ABB2BF",
-      "yellow": "#E5C07B",
-      "green": "#98C379",
-      "gray": "#ABB2BF",
-      "blue": "#61AFEF",
-      "red": "#E06C75"
+      "background": "#232C31",
+      "foreground": "#9EA7A6",
+      "yellow": "#A03B1E",
+      "green": "#237986",
+      "gray": "#3F4944",
+      "blue": "#484D79",
+      "red": "#2A5491"
     },
     "dark": {
       "background": "#FFFFFF",
-      "foreground": "#ABB2BF",
-      "yellow": "#E5C07B",
-      "green": "#98C379",
-      "gray": "#545862",
-      "blue": "#61AFEF",
-      "red": "#E06C75"
+      "foreground": "#9EA7A6",
+      "yellow": "#A03B1E",
+      "green": "#237986",
+      "gray": "#3F4944",
+      "blue": "#484D79",
+      "red": "#2A5491"
     }
   }
 }
