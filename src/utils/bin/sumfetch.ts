@@ -2,12 +2,12 @@ import config from '../../../config.json';
 
 const sumfetch = async (args: string[]): Promise<string> => {
   return `
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       Summary
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      🗂️ Sumfetch: summary display
 @@@@@&&&&&&&&&&&&//////%%%%%%%@@@@@@@@@      -----------
-@@@@@&&&&&&&&&&&#//////&&&&&&&@@@@@@@@@       ABOUT
-@@@@@&&&&&&&&&&///////%%%%%%%%@@@@@@@@@       ${config.name}
-@@@@@&&&&&&&&&&&////#%@@@@@@@@@@@@@@@@@       <u><a href="${config.resume_url}" target="_blank">Resume</a></u>
-@@@@@&&&&&&&&&//////%%%%%%%%%%@@@@@@@@@      爵 <u><a href="${config.repo}" target="_blank">Github Repo</a></u>
+@@@@@&&&&&&&&&&&#//////&&&&&&&@@@@@@@@@      💻 ABOUT
+@@@@@&&&&&&&&&&///////%%%%%%%%@@@@@@@@@      🤦 ${config.name}
+@@@@@&&&&&&&&&&&////#%@@@@@@@@@@@@@@@@@      📃 <u><a href="${config.resume_url}" target="_blank">Resume</a></u>
+@@@@@&&&&&&&&&//////%%%%%%%%%%@@@@@@@@@      <a href="https://iconscout.com/icons/github" class="text-underline font-size-sm" target="_blank">Github</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm" target="_blank">Pixel Icons</a> <u><a href="${config.repo}" target="_blank">Github Repo</a></u>
 @@@@@%%%%%%%%(///////%%%%%%%%%@@@@@@@@@      爵 <u><a href="${config.Medium}" target="_blank">Medium</a></u>
 @@@@@&&&&&&&&/////////&&&&&&&&@@@@@@@@@      -----------      
 @@@@@%%%%%%///////////########@@@@@@@@@       CONTACT
