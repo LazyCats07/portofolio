@@ -11,7 +11,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 @@@@@%%%%%%%%(///////%%%%%%%%%@@@@@@@@@      爵 <u><a href="${config.Medium}" target="_blank">Medium</a></u>
 @@@@@&&&&&&&&/////////&&&&&&&&@@@@@@@@@      -----------      
 @@@@@%%%%%%///////////########@@@@@@@@@       CONTACT
-@@@@@@@@@@@///////////&&&&&%@@@@@@@@@@@      爵 <u><a href="${config.email}" target="_blank">Linkedin</a></u>
+@@@@@@@@@@@///////////&&&&&%@@@@@@@@@@@      爵 <u><a href="${config.email}" target="_blank">Email</a></u>
 @@@@@@@@@@//////////////@%&%@@@@@@@@@@@      爵 <u><a href="${config.linkedin}" target="_blank">Linkedin</a></u>
 @@@@@%%%%%//#/////////&#////@@@@@@@@@@@      爵 <u><a href="${config.whatsapp_url}" target="_blank">Whatsapp</a></u>
 @@@@@&&&&///@/////////##&&///@@@@@@@@@@      爵 <u><a href="${config.Instagram}" target="_blank">Instagram</a></u>
