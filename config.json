@@ -32,15 +32,24 @@
     "English-Arabic-Translation",
     "ReChain"
   ],
-"gruvbox": {
+  "onedark":{
     "dark": {
-      "background": "#1c1c1c",
-      "foreground": "#EBDBB2",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#A89984",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#282C34",
+      "foreground": "#ABB2BF",
+      "yellow": "#E5C07B",
+      "green": "#98C379",
+      "gray": "#545862",
+      "blue": "#61AFEF",
+      "red": "#E06C75"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "foreground": "#ABB2BF",
+      "yellow": "#E5C07B",
+      "green": "#98C379",
+      "gray": "#ABB2BF",
+      "blue": "#61AFEF",
+      "red": "#E06C75"
     }
   }
 }
