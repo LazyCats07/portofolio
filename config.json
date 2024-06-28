@@ -15,6 +15,7 @@
   "repo": "https://github.com/LazyCats07",
   "linkedin": "https://www.linkedin.com/in/mrafiediananta/",
   "resume_url": "https://drive.google.com/file/d/1-r2BAUsU0RvZhC_4Wvn4jYDa6AfcYAnr/view?usp=sharing",
+  "whatsapp_url": "https://wa.me/08114444020",
   "ps1_hostname": "portfolio",
   "ps1_username": "guest",
   "top_repos": [
@@ -33,21 +34,21 @@
     "ReChain"
   ],
   "onedark":{
-    "dark": {
-      "background": "#FFFFFF",
-      "foreground": "#ABB2BF",
-      "yellow": "#E5C07B",
-      "green": "#98C379",
-      "gray": "#545862",
-      "blue": "#61AFEF",
-      "red": "#E06C75"
-    },
     "light": {
       "background": "#2e3440",
       "foreground": "#ABB2BF",
       "yellow": "#E5C07B",
       "green": "#98C379",
       "gray": "#ABB2BF",
+      "blue": "#61AFEF",
+      "red": "#E06C75"
+    },
+    "dark": {
+      "background": "#FFFFFF",
+      "foreground": "#ABB2BF",
+      "yellow": "#E5C07B",
+      "green": "#98C379",
+      "gray": "#545862",
       "blue": "#61AFEF",
       "red": "#E06C75"
     }
