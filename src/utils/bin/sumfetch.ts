@@ -12,9 +12,9 @@ const sumfetch = async (args: string[]): Promise<string> => {
 @@@@@&&&&&&&&/////////&&&&&&&&@@@@@@@@@      -----------      
 @@@@@%%%%%%///////////########@@@@@@@@@      🪪 CONTACT
 @@@@@@@@@@@///////////&&&&&%@@@@@@@@@@@      ✉️ <u><a href="${config.email}" target="_blank">edianantarafi@gmail.com</a></u>
-@@@@@@@@@@//////////////@%&%@@@@@@@@@@@      📇 <u><a href="${config.linkedin}" target="_blank">www.linkedin.com/in/mrafiediananta/</a></u>
+@@@@@@@@@@//////////////@%&%@@@@@@@@@@@      📇 <u><a href="${config.linkedin}" target="_blank">linkedin.com/in/mrafiediananta/</a></u>
 @@@@@%%%%%//#/////////&#////@@@@@@@@@@@      📞 <u><a href="${config.whatsapp_url}" target="_blank">wa.me/08114444020</a></u>
-@@@@@&&&&///@/////////##&&///@@@@@@@@@@      📲 <u><a href="${config.Instagram}" target="_blank">www.instagram.com/mrafi.ed/</a></u>
+@@@@@&&&&///@/////////##&&///@@@@@@@@@@      📲 <u><a href="${config.Instagram}" target="_blank">instagram.com/mrafi.ed/</a></u>
 @@@@@&&&///%///////////&&&(%%@@@@@@@@@@      ----------
 @@@@@&&&&/##///////////&&&&%%@@@@@@@@@@      
 @@@@@&&&&((/////////////%%%%%%@@@@@@@@@
