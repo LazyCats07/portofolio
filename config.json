@@ -34,7 +34,7 @@
   ],
   "onedark":{
     "dark": {
-      "background": "#282C34",
+      "background": "#FFFFFF",
       "foreground": "#ABB2BF",
       "yellow": "#E5C07B",
       "green": "#98C379",
@@ -43,7 +43,7 @@
       "red": "#E06C75"
     },
     "light": {
-      "background": "#FFFFFF",
+      "background": "#2e3440",
       "foreground": "#ABB2BF",
       "yellow": "#E5C07B",
       "green": "#98C379",
