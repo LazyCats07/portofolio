@@ -1,4 +1,24 @@
 {
+  "codeschool":{
+    "light": {
+      "background": "#232C31",
+      "foreground": "#9EA7A6",
+      "yellow": "#A03B1E",
+      "green": "#237986",
+      "gray": "#3F4944",
+      "blue": "#484D79",
+      "red": "#2A5491"
+    },
+    "dark": {
+      "background": "#FFFFFF",
+      "foreground": "#9EA7A6",
+      "yellow": "#A03B1E",
+      "green": "#237986",
+      "gray": "#3F4944",
+      "blue": "#484D79",
+      "red": "#2A5491"
+    }
+  },
   "default": {
     "light": {
       "background": "#FBF1C9",
@@ -180,21 +200,21 @@
       }
     },
     "onedark":{
-        "light": {
-          "background": "#FFFFFF",
-          "foreground": "#ABB2BF",
-          "yellow": "#E5C07B",
-          "green": "#98C379",
-          "gray": "#ABB2BF",
-          "blue": "#61AFEF",
-          "red": "#E06C75"
-        },
         "dark": {
           "background": "#282C34",
           "foreground": "#ABB2BF",
           "yellow": "#E5C07B",
           "green": "#98C379",
           "gray": "#545862",
+          "blue": "#61AFEF",
+          "red": "#E06C75"
+        },
+        "light": {
+          "background": "#FFFFFF",
+          "foreground": "#ABB2BF",
+          "yellow": "#E5C07B",
+          "green": "#98C379",
+          "gray": "#ABB2BF",
           "blue": "#61AFEF",
           "red": "#E06C75"
         }
