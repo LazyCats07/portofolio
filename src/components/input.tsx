@@ -16,7 +16,7 @@ export const Input = ({
   clearHistory,
 }) => {
   const onSubmit = async (event: React.KeyboardEvent<HTMLInputElement>) => {
-    const commands: [string] = history
+    const commands: string[] = history
       .map(({ command }) => command)
       .filter((command: string) => command);
 
@@ -37,7 +37,7 @@ export const Input = ({
       handleTabCompletion(command, setCommand);
     }
 
-    if (event.key === 'Enter' || event.code === '13') {
+    if (event.key === 'Enter') {
       event.preventDefault();
       setLastCommandIndex(0);
       await shell(command, setHistory, clearHistory, setCommand);
