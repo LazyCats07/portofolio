@@ -4,6 +4,7 @@ import config from '../../config.json';
 import { Input } from '../components/input';
 import { useHistory } from '../components/history/hook';
 import { History } from '../components/history/History';
+import AnimatedPixel from '../components/AnimatedPixel';
 import { banner } from '../utils/bin';
 
 interface IndexPageProps {
@@ -44,6 +45,8 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
       <div className="p-8 overflow-hidden h-full border-2 rounded border-light-yellow dark:border-dark-yellow">
         <div ref={containerRef} className="overflow-y-auto h-full terminal-width">
           <History history={history} />
+
+          <AnimatedPixel />
 
           <Input
             inputRef={inputRef}
