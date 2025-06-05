@@ -1,9 +1,14 @@
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
+import { loadTheme } from '../utils/theme';
 
 const App = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement>(null);
+
+  React.useEffect(() => {
+    loadTheme();
+  }, []);
 
   const onClickAnywhere = () => {
     inputRef.current.focus();

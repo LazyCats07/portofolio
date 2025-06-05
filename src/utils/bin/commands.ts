@@ -2,6 +2,7 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
+import { applyTheme, toggleTheme } from '../theme';
 
 // Help
 export const help = async (args: string[]): Promise<string> => {
@@ -49,6 +50,7 @@ weather   - display weather
 |   Other      |
 ----------------
 repo      - open github repo
+theme     - toggle light/dark theme
 help      - display this help message
 `;
 
@@ -146,6 +148,19 @@ if you want to help, you can type 'donate'.`;
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
+};
+
+export const theme = async (args: string[]): Promise<string> => {
+  let mode = args[0];
+  if (mode !== 'light' && mode !== 'dark') {
+    mode = undefined;
+  }
+  if (!mode) {
+    mode = toggleTheme();
+  } else {
+    applyTheme(mode as 'light' | 'dark');
+  }
+  return `Switched to ${mode} theme.`;
 };
 
 // export const vi = async (args: string[]): Promise<string> => {
