@@ -49,3 +49,5 @@ div#__next > div {
   display: inline-block;
   text-decoration: underline;
 }
+
+.pixel-animation { image-rendering: pixelated; }
