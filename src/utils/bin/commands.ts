@@ -33,6 +33,7 @@ resume    - open resume
 sumfetch  - display summary
 banner    - display a cool banner
 projects  - display github projects
+framework - display pesticide exposure framework
 
 ----------------
 | Fun Commands |
@@ -80,6 +81,71 @@ More about me:
 };
 
 export default about;
+
+export const framework = async (args: string[]): Promise<string> => {
+  return `DISTAL (KONTEKS)
+  - Demografi & Sosial-Ekonomi RT Petani
+    (usia, pendidikan, pekerjaan, pendapatan, lama bertani, jumlah balita, akses pembiayaan)
+  - Konteks Komunitas / Norma Sosial
+    - Norma Injungtif (dukungan/harapan lingkungan)
+    - Norma Deskriptif (praktik umum di sekitar)
+
+        | memengaruhi
+        v
+
+PROKSIMAL (SISTEM PESTISIDA DI RUMAH–KEBUN)
+  - Pola Penggunaan Pestisida
+    (jenis: insektisida/herbisida/fungisida; dosis; frekuensi; luas lahan; sumber pengetahuan)
+  - Kedekatan Spasial & Lingkungan Mikro
+    (koordinat rumah; jarak rumah–lahan/area pertanian)
+  - Kompetensi Individu
+    - Pengetahuan toksisitas & rute paparan
+    - Praktik alternatif (pestisida organik/pendekatan alami)
+
+        | membentuk emisi + peluang paparan
+        v
+
+DISCREPANCY (KETIDAKSESUAIAN PRAKTIK)  <- node kunci studi
+  "Intensitas penggunaan + kedekatan" TIDAK diimbangi "mitigasi/perilaku protektif"
+
+        | memediasi/memoderasi
+        v
+
+PERILAKU BERISIKO vs PROTEKTIF (DI RUMAH–KEBUN)
+  - Anak berada saat penyemprotan / segera setelah semprot
+  - Akses anak ke lahan pasca penyemprotan
+  - Penyimpanan pestisida (aman vs berisiko)
+  - Praktik higienitas setelah menyemprot (mandi/ganti baju)
+  - Area cuci alat semprot & pembatasan anak
+  - Pemisahan cucian pakaian kerja vs pakaian anak
+
+        | menentukan paparan aktual anak
+        v
+
+PAPARAN ANAK (RUTE)
+  - Inhalasi (drift/udara saat & setelah semprot)
+  - Dermal (kontak permukaan/alat/pakaian terkontaminasi)
+  - Ingestif (tangan–mulut; residu pada makanan/permukaan)
+
+        | memicu
+        v
+
+OUTCOME KESEHATAN ANAK
+  - Gejala akut/subakut: batuk, pusing/mual-muntah, demam, dermatitis, ISPA, asma, dll.
+  - Indikator neuro-perkembangan: keterlambatan bicara, ADHD/gangguan konsentrasi, kejang, dll.
+  - Status diagnosis & frekuensi kejadian
+
+        | berdampak pada
+        v
+
+BEBAN EKONOMI RUMAH TANGGA
+  - Pengeluaran pestisida per musim
+  - Biaya pengobatan anak per tahun
+  - Hasil panen (trade-off produktivitas–risiko)
+
+(Feedback loop yang mungkin):
+Beban Ekonomi -> keputusan penggunaan pestisida & adopsi mitigasi (positif/negatif tergantung konteks)`;
+};
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
